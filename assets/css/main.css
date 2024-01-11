@@ -102,6 +102,7 @@ header {
 nav {
     background-color: var(--base-color-light);
     padding: 0.8rem 1rem;
+    display: none;
 }
 
 nav li {
