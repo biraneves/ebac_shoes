@@ -1,0 +1,39 @@
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        overflow-x: hidden;
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #sobre-a-loja {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #sobre-a-loja picture {
+        margin-right: 1.5rem;
+    }
+
+    #produtos div {
+        display: grid;
+        grid-template-columns: repeat(4, 23.5%);
+        column-gap: 2%;
+    }
+
+    #produtos article {
+        width: 100%;
+    }
+
+    #produtos article h3 {
+        font-size: 1.1rem;
+    }
+
+    #produtos article p {
+        font-size: 0.9rem;
+    }
+}

@@ -5,6 +5,7 @@
     --font-title: 'Roboto', sans-serif;
 
     --base-white: #fcfcfc;
+    --base-gray: #eee;
     --base-black: #070600;
     --base-color-dark: #305c96;
     --base-color-light: #23b5d3;
@@ -13,6 +14,7 @@
 
 html {
     font-size: 16px;
+    background-color: var(--base-gray);
 }
 
 body {
@@ -20,6 +22,7 @@ body {
     color: var(--base-black);
     position: relative;
     width: 100vw;
+    background-color: var(--base-white);
 }
 
 h1,
@@ -93,6 +96,7 @@ header {
     height: 2rem;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .menu-hamburguer span {
@@ -162,6 +166,7 @@ button {
     border-radius: 3px;
     cursor: pointer;
     padding: 0.8rem;
+    width: 100%;
 }
 
 footer {
