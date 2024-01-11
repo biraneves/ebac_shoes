@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --font-base: 'Quicksand', sans-serif;
+    --font-title: 'Roboto', sans-serif;
+
+    --base-white: #fcfcfc;
+    --base-black: #070600;
+    --base-color-dark: #305c96;
+    --base-color-light: #23b5d3;
+    --base-color-highlight: #ea526f;
+}
+
+body {
+    font-family: var(--font-base);
+    color: var(--base-black);
+    position: relative;
+    width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-title);
+    font-weight: bold;
+    color: var(--base-color-dark);
+}
+
+strong {
+    font-weight: bold;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.container-grid {
+    display: grid;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.cabecalho {
+    background-color: var(--base-color-dark);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 3px var(--base-color-light);
+}
+
+.cabecalho h1 {
+    color: var(--base-white);
+}
+
+.menu-hamburguer {
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-hamburguer span {
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: var(--base-white);
+    margin: 2px 0;
+}
+
+nav {
+    background-color: var(--base-color-light);
+}
+
+nav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--base-white);
+}
+
+button {
+    background-color: var(--base-color-highlight);
+    color: var(--base-white);
+    font-family: var(--font-title);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--base-color-dark);
+    margin-top: 32px;
+    text-align: center;
+}
+
+footer p {
+    color: var(--base-white);
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--base-color-light);
+}
