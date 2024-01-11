@@ -11,6 +11,10 @@
     --base-color-highlight: #ea526f;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: var(--font-base);
     color: var(--base-black);
@@ -27,6 +31,22 @@ h6 {
     font-family: var(--font-title);
     font-weight: bold;
     color: var(--base-color-dark);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    line-height: 1.2rem;
 }
 
 strong {
@@ -49,6 +69,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    margin-bottom: 2rem;
 }
 
 .cabecalho {
@@ -56,6 +77,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 3px var(--base-color-light);
+    padding: 1rem;
 }
 
 .cabecalho h1 {
@@ -63,8 +85,8 @@ header {
 }
 
 .menu-hamburguer {
-    width: 28px;
-    height: 28px;
+    width: 2rem;
+    height: 2rem;
     justify-content: center;
     align-items: center;
 }
@@ -79,16 +101,51 @@ header {
 
 nav {
     background-color: var(--base-color-light);
+    padding: 0.8rem 1rem;
 }
 
 nav li {
     display: inline;
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 
 nav a {
     text-decoration: none;
     color: var(--base-white);
+}
+
+main {
+    width: 100%;
+}
+
+main .container {
+    padding: 0 1rem;
+}
+
+main section {
+    margin-top: 2rem;
+}
+
+#sobre-a-loja div {
+    padding-top: 2rem;
+}
+
+#sobre-a-loja h2 {
+    margin-bottom: 1.2rem;
+}
+
+#sobre-a-loja p {
+    margin-bottom: 1rem;
+}
+
+#produtos article {
+    margin-top: 2rem;
+}
+
+#produtos article img,
+#produtos article h3,
+#produtos article p {
+    margin-bottom: 1rem;
 }
 
 button {
@@ -97,18 +154,22 @@ button {
     font-family: var(--font-title);
     font-weight: bold;
     border: none;
+    border-radius: 3px;
     cursor: pointer;
+    padding: 0.8rem;
 }
 
 footer {
     background-color: var(--base-color-dark);
-    margin-top: 32px;
+    margin-top: 2rem;
     text-align: center;
+    padding: 0.8rem 1rem;
 }
 
 footer p {
     color: var(--base-white);
-    font-size: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1rem;
 }
 
 footer a {
