@@ -20,7 +20,8 @@
 
     #produtos div {
         display: grid;
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%;
     }
 
     #produtos article {
