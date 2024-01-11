@@ -7,7 +7,7 @@ $(document).ready(() => {
         const destino = $($(this).attr('href'));
 
         $('html').animate({
-            scrollTop: destino.offset().top - 104,
+            scrollTop: destino.offset().top - 120,
         }, 500);
     });
 
